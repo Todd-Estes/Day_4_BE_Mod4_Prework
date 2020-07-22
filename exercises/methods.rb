@@ -38,9 +38,12 @@ state = "Colorado"
 
 capital(city, state)
 
-
-
 # Write a method that takes in two strings as arguments and prints
 # a concatenation of those two strings. Example: The arguments could be
 # (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method:
+def parents(mom, dad)
+  p "My mom, #{mom}, met my dad," + " #{dad}, when they were in college."
+  end
+
+  parents("Rita", "George")
